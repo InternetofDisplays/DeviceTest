@@ -1,7 +1,7 @@
 useradd -m kiosk
 passwd -d kiosk
  
-yum -y install gnome-kiosk-script-session
+apt -y install gnome-kiosk-script-session
  
 cat > /etc/gdm/custom.conf << EOF
 # GDM configuration storage
